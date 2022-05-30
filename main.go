@@ -2,8 +2,9 @@ package main
 
 import (
 	checkpoint "asd/check"
+	"fmt"
 )
 
 func main() {
-	checkpoint.Romannumbers()
+	fmt.Println(checkpoint.Romannumbers(3999))
 }
